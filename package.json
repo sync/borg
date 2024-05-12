@@ -1,0 +1,14 @@
+{
+  "name": "borg-mono",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "prebuild": "yarn workspace borg prebuild",
+    "start": "yarn workspace borg start",
+    "ios": "yarn workspace borg ios",
+    "android": "yarn workspace borg android"
+  }
+}
